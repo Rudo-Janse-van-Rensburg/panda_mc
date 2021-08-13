@@ -1,0 +1,133 @@
+---- Minecraft Crash Report ----
+// Sorry :(
+
+Time: 8/13/21, 5:23 PM
+Description: Ticking entity
+
+java.lang.NullPointerException: Cannot invoke "it.unimi.dsi.fastutil.objects.ObjectArrayList.get(int)" because "this.wrapped" is null
+	at it.unimi.dsi.fastutil.objects.ObjectOpenHashSet$SetIterator.next(ObjectOpenHashSet.java:501)
+	at abr.a(SourceFile:882)
+	at bwq.a(SourceFile:231)
+	at bwq.a(SourceFile:196)
+	at cbl.a(SourceFile:215)
+	at awd.a(SourceFile:89)
+	at avh.e(SourceFile:49)
+	at aup.d(SourceFile:511)
+	at aup.a(SourceFile:470)
+	at bjr.eY(SourceFile:272)
+	at atw.ey(SourceFile:741)
+	at atu.u_(SourceFile:2601)
+	at atw.u_(SourceFile:539)
+	at ate.u_(SourceFile:127)
+	at atu.k(SourceFile:2346)
+	at atw.k(SourceFile:339)
+	at bjr.k(SourceFile:313)
+	at abr.a(SourceFile:655)
+	at bwq.a(SourceFile:483)
+	at abr.a(SourceFile:417)
+	at coj.a(SourceFile:54)
+	at abr.a(SourceFile:392)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:891)
+	at aas.b(SourceFile:335)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:831)
+	at net.minecraft.server.MinecraftServer.x(SourceFile:697)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:270)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at it.unimi.dsi.fastutil.objects.ObjectOpenHashSet$SetIterator.next(ObjectOpenHashSet.java:501)
+	at abr.a(SourceFile:882)
+	at bwq.a(SourceFile:231)
+	at bwq.a(SourceFile:196)
+	at cbl.a(SourceFile:215)
+	at awd.a(SourceFile:89)
+	at avh.e(SourceFile:49)
+	at aup.d(SourceFile:511)
+	at aup.a(SourceFile:470)
+	at bjr.eY(SourceFile:272)
+	at atw.ey(SourceFile:741)
+	at atu.u_(SourceFile:2601)
+	at atw.u_(SourceFile:539)
+	at ate.u_(SourceFile:127)
+	at atu.k(SourceFile:2346)
+	at atw.k(SourceFile:339)
+	at bjr.k(SourceFile:313)
+	at abr.a(SourceFile:655)
+
+-- Entity being ticked --
+Details:
+	Entity Type: minecraft:villager (bjr)
+	Entity ID: 4799
+	Entity Name: Villager
+	Entity's Exact location: 1611.48, 64.00, -918.83
+	Entity's Block location: World: (1611,64,-919), Section: (at 11,0,9 in 100,4,-58; chunk contains blocks 1600,0,-928 to 1615,255,-913), Region: (3,-2; contains chunks 96,-64 to 127,-33, blocks 1536,0,-1024 to 2047,255,-513)
+	Entity's Momentum: 0.00, -0.08, 0.07
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at bwq.a(SourceFile:483)
+	at abr.a(SourceFile:417)
+	at coj.a(SourceFile:54)
+	at abr.a(SourceFile:392)
+
+-- Affected level --
+Details:
+	All players: 2 total; [abs['jpsullivan238'/135, l='ServerLevel[world]', x=927.32, y=157.33, z=-1008.13], abs['god_desu'/315, l='ServerLevel[world]', x=1670.12, y=115.62, z=-1042.61]]
+	Chunk stats: 4703
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (1177,86,-758), Section: (at 9,6,10 in 73,5,-48; chunk contains blocks 1168,0,-768 to 1183,255,-753), Region: (2,-2; contains chunks 64,-64 to 95,-33, blocks 1024,0,-1024 to 1535,255,-513)
+	Level time: 190259 game time, 2331 day time
+	Level name: world
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Level weather: Rain time: 1 (now: false), thunder time: 1 (now: false)
+	Known server brands: vanilla
+	Level was modded: false
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.b(SourceFile:891)
+	at aas.b(SourceFile:335)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:831)
+	at net.minecraft.server.MinecraftServer.x(SourceFile:697)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:270)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.17.1
+	Minecraft Version ID: 1.17.1
+	Operating System: Linux (amd64) version 5.4.0-73-generic
+	Java Version: 16.0.1, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Private Build
+	Memory: 1104680960 bytes (1053 MiB) / 1922039808 bytes (1833 MiB) up to 2147483648 bytes (2048 MiB)
+	CPUs: 2
+	Processor Vendor: GenuineIntel
+	Processor Name: DO-Regular
+	Identifier: Intel64 Family 6 Model 63 Stepping 2
+	Microarchitecture: Haswell (Server)
+	Frequency (GHz): 2.00
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 2
+	Graphics card #0 name: QXL paravirtual graphic card
+	Graphics card #0 vendor: Red Hat, Inc. (0x1b36)
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: 0x0100
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): 0.00
+	Memory slot #0 type: RAM
+	Virtual memory max (MB): 1968.10
+	Virtual memory used (MB): 2577.62
+	Swap memory total (MB): 0.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 2 total; -Xmx2048M -Xms1024M
+	Player Count: 2 / 20; [abs['jpsullivan238'/135, l='ServerLevel[world]', x=927.32, y=157.33, z=-1008.13], abs['god_desu'/315, l='ServerLevel[world]', x=1670.12, y=115.62, z=-1042.61]]
+	Data Packs: vanilla
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)

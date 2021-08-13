@@ -1,91 +1,80 @@
-[22:03:06] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:03:07] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:03:07] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:03:07] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22:03:07] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22:03:07] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:03:07] [main/INFO]: Reloading ResourceManager: Default
-[22:03:09] [Worker-Main-2/INFO]: Loaded 7 recipes
-[22:03:10] [Worker-Main-2/INFO]: Loaded 1137 advancements
-[22:03:13] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[22:03:13] [Server thread/INFO]: Loading properties
-[22:03:13] [Server thread/INFO]: Default game type: SURVIVAL
-[22:03:13] [Server thread/INFO]: Generating keypair
-[22:03:13] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:03:13] [Server thread/INFO]: Using epoll channel type
-[22:03:13] [Server thread/INFO]: Preparing level "world"
-[22:03:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:03:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:03:25] [Worker-Main-2/INFO]: Preparing spawn area: 5%
-[22:03:25] [Worker-Main-2/INFO]: Preparing spawn area: 53%
-[22:03:26] [Server thread/INFO]: Time elapsed: 12495 ms
-[22:03:26] [Server thread/INFO]: Done (12.636s)! For help, type "help"
-[22:04:48] [User Authenticator #1/INFO]: UUID of player jpsullivan238 is 32a35866-b6c7-43d0-92d2-d1c1d18c5fbb
-[22:04:48] [Server thread/INFO]: jpsullivan238[/84.40.94.64:64183] logged in with entity id 251 at (189.78648158892813, 62.0, -51.94713059101197)
-[22:04:48] [Server thread/INFO]: jpsullivan238 joined the game
-[22:06:12] [Server thread/INFO]: Made jpsullivan238 a server operator
-[22:06:37] [User Authenticator #2/INFO]: UUID of player god_desu is 70e8a532-b20f-475e-af80-856c6efaadf6
-[22:06:37] [Server thread/INFO]: god_desu[/41.115.40.193:13151] logged in with entity id 418 at (190.20889817432172, 62.0, -54.27946069529324)
-[22:06:37] [Server thread/INFO]: god_desu joined the game
-[22:10:53] [Server thread/INFO]: [god_desu: Teleported jpsullivan238 to god_desu]
-[22:14:33] [Server thread/INFO]: [god_desu: Set jpsullivan238's game mode to Survival Mode]
-[22:15:01] [Server thread/INFO]: [god_desu: Set jpsullivan238's game mode to Creative Mode]
-[22:15:10] [Server thread/INFO]: [god_desu: Set own game mode to Creative Mode]
-[22:15:18] [Server thread/INFO]: [god_desu: Set the time to 1000]
-[22:15:21] [Server thread/INFO]: [god_desu: Set the weather to clear]
-[22:18:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2109ms or 42 ticks behind
-[22:20:52] [Server thread/INFO]: [god_desu: Set the weather to clear]
-[22:25:08] [Server thread/INFO]: [god_desu: Set the weather to clear]
-[22:25:27] [Server thread/INFO]: [god_desu: Set the time to 1000]
-[22:27:51] [Server thread/INFO]: [god_desu: Set the world spawn point to 1177, 86, -758 [0.0]]
-[22:28:21] [Server thread/INFO]: [god_desu: Teleported jpsullivan238 to god_desu]
-[22:30:17] [Server thread/INFO]: [god_desu: Set the weather to clear]
-[22:30:20] [Server thread/INFO]: [god_desu: Set the time to 1000]
-[22:31:11] [Server thread/INFO]: [god_desu: Gamerule doWeatherCycle is now set to: false]
-[22:31:27] [Server thread/INFO]: [god_desu: Gamerule doDaylightCycle is now set to: false]
-[22:37:16] [Server thread/INFO]: god_desu has made the advancement [Hot Stuff]
-[22:37:30] [Server thread/INFO]: [god_desu: Teleported jpsullivan238 to god_desu]
-[22:44:26] [Server thread/INFO]: god_desu has made the advancement [Ice Bucket Challenge]
-[22:45:23] [Server thread/INFO]: jpsullivan238 has made the advancement [We Need to Go Deeper]
-[22:45:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[22:45:24] [Server thread/INFO]: god_desu has made the advancement [We Need to Go Deeper]
-[22:48:42] [Server thread/WARN]: god_desu moved too quickly! 0.0,-10.110000401735306,0.0
-[22:58:34] [Server thread/INFO]: god_desu lost connection: Disconnected
-[22:58:34] [Server thread/INFO]: god_desu left the game
-[22:58:37] [Server thread/INFO]: jpsullivan238 lost connection: Disconnected
-[22:58:37] [Server thread/INFO]: jpsullivan238 left the game
-[22:58:46] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[22:58:46] [Server thread/INFO]: quit<--[HERE]
-[22:58:54] [Server thread/INFO]: Stopping the server
-[22:58:54] [Server thread/INFO]: Stopping server
-[22:58:54] [Server thread/INFO]: Saving players
-[22:58:54] [Server thread/INFO]: Saving worlds
-[22:58:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:58:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:58:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:58:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:58:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:58:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:58:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:34:12] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:34:13] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:34:13] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:34:13] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:34:13] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:34:13] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:34:13] [main/INFO]: Reloading ResourceManager: Default
+[17:34:14] [Worker-Main-2/INFO]: Loaded 7 recipes
+[17:34:15] [Worker-Main-2/INFO]: Loaded 1137 advancements
+[17:34:17] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[17:34:17] [Server thread/INFO]: Loading properties
+[17:34:17] [Server thread/INFO]: Default game type: SURVIVAL
+[17:34:17] [Server thread/INFO]: Generating keypair
+[17:34:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:34:17] [Server thread/INFO]: Using epoll channel type
+[17:34:17] [Server thread/INFO]: Preparing level "world"
+[17:34:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:34:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:34:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:34:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:34:19] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:34:19] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:34:20] [Worker-Main-2/INFO]: Preparing spawn area: 7%
+[17:34:20] [Worker-Main-2/INFO]: Preparing spawn area: 7%
+[17:34:21] [Worker-Main-2/INFO]: Preparing spawn area: 8%
+[17:34:21] [Worker-Main-2/INFO]: Preparing spawn area: 19%
+[17:34:22] [Worker-Main-2/INFO]: Preparing spawn area: 20%
+[17:34:22] [Worker-Main-2/INFO]: Preparing spawn area: 30%
+[17:34:23] [Worker-Main-2/INFO]: Preparing spawn area: 40%
+[17:34:23] [Worker-Main-2/INFO]: Preparing spawn area: 57%
+[17:34:24] [Worker-Main-2/INFO]: Preparing spawn area: 74%
+[17:34:24] [Server thread/INFO]: Time elapsed: 7031 ms
+[17:34:24] [Server thread/INFO]: Done (7.181s)! For help, type "help"
+[17:34:32] [User Authenticator #1/INFO]: UUID of player god_desu is 70e8a532-b20f-475e-af80-856c6efaadf6
+[17:34:32] [Server thread/INFO]: god_desu[/41.115.57.212:3365] logged in with entity id 128 at (1670.1229763206518, 115.6202261688634, -1042.6075398732996)
+[17:34:32] [Server thread/INFO]: god_desu joined the game
+[17:34:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[17:34:42] [User Authenticator #2/INFO]: UUID of player jpsullivan238 is 32a35866-b6c7-43d0-92d2-d1c1d18c5fbb
+[17:34:42] [Server thread/INFO]: jpsullivan238[/84.40.94.64:54415] logged in with entity id 385 at (927.3185839469529, 157.33456032686323, -1008.1331850546541)
+[17:34:42] [Server thread/INFO]: jpsullivan238 joined the game
+[17:35:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11436ms or 228 ticks behind
+[17:35:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4319ms or 86 ticks behind
+[17:35:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5446ms or 108 ticks behind
+[17:36:32] [Server thread/INFO]: [god_desu: Teleported god_desu to jpsullivan238]
+[17:39:49] [Server thread/WARN]: god_desu moved too quickly! 9.090753230363134,0.0,4.605610300804528
+[17:39:49] [Server thread/WARN]: jpsullivan238 moved too quickly! 8.453949251632366,0.0,5.93611665399294
+[17:43:30] [Server thread/INFO]: [god_desu: Teleported god_desu to jpsullivan238]
+[17:46:03] [Server thread/INFO]: jpsullivan238 has made the advancement [Acquire Hardware]
+[17:54:13] [Server thread/INFO]: jpsullivan238 fell out of the world
+[17:54:30] [Server thread/INFO]: [god_desu: Teleported jpsullivan238 to god_desu]
+[17:54:54] [Server thread/INFO]: [god_desu: Teleported jpsullivan238 to god_desu]
+[17:56:08] [Server thread/INFO]: god_desu has made the advancement [Who is Cutting Onions?]
+[17:57:42] [Server thread/INFO]: [god_desu: Teleported jpsullivan238 to god_desu]
+[18:02:39] [Server thread/INFO]: <god_desu> Iva, are you talking to an friend?
+[18:02:44] [Server thread/INFO]: <god_desu> : ' l
+[18:02:49] [Server thread/INFO]: <god_desu> I cannot hear
+[18:02:54] [Server thread/INFO]: <god_desu> T^T
+[18:05:59] [Server thread/INFO]: [god_desu: Teleported jpsullivan238 to god_desu]
+[18:06:02] [Server thread/INFO]: [god_desu: Teleported jpsullivan238 to god_desu]
+[18:06:03] [Server thread/INFO]: [god_desu: Teleported jpsullivan238 to god_desu]
+[18:06:06] [Server thread/INFO]: [god_desu: Teleported jpsullivan238 to god_desu]
+[18:06:10] [Server thread/INFO]: [god_desu: Teleported jpsullivan238 to god_desu]
+[18:09:19] [Server thread/INFO]: jpsullivan238 lost connection: Timed out
+[18:09:19] [Server thread/INFO]: jpsullivan238 left the game
+[18:09:19] [Server thread/WARN]: handleDisconnection() called twice
+[18:09:35] [User Authenticator #3/INFO]: UUID of player jpsullivan238 is 32a35866-b6c7-43d0-92d2-d1c1d18c5fbb
+[18:09:35] [Server thread/INFO]: jpsullivan238[/84.40.94.64:62390] logged in with entity id 14708 at (1673.4176970580984, 64.0, -925.0241426691758)
+[18:09:35] [Server thread/INFO]: jpsullivan238 joined the game
+[18:10:48] [Server thread/INFO]: jpsullivan238 has made the advancement [Who is Cutting Onions?]
+[18:26:21] [Server thread/INFO]: [god_desu: Teleported jpsullivan238 to god_desu]
+[18:26:33] [Server thread/INFO]: [god_desu: Set jpsullivan238's game mode to Survival Mode]
+[18:26:50] [Server thread/INFO]: [god_desu: Set jpsullivan238's game mode to Creative Mode]
+[18:28:58] [Server thread/INFO]: god_desu has made the advancement [Diamonds!]
+[18:32:42] [Server thread/INFO]: jpsullivan238 has made the advancement [Diamonds!]
+[18:46:18] [Server thread/INFO]: god_desu has made the advancement [Ol' Betsy]
+[18:46:19] [Server thread/INFO]: god_desu has made the advancement [Take Aim]
+[19:06:05] [Server thread/INFO]: jpsullivan238 has made the advancement [Hot Stuff]
+[19:38:17] [Server thread/INFO]: [god_desu: Set the time to 13000]
+[21:21:56] [Server thread/INFO]: god_desu lost connection: Disconnected
+[21:21:56] [Server thread/INFO]: god_desu left the game
