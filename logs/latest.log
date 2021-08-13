@@ -78,3 +78,6 @@
 [19:38:17] [Server thread/INFO]: [god_desu: Set the time to 13000]
 [21:21:56] [Server thread/INFO]: god_desu lost connection: Disconnected
 [21:21:56] [Server thread/INFO]: god_desu left the game
+[21:24:21] [Server thread/INFO]: jpsullivan238 lost connection: Timed out
+[21:24:21] [Server thread/INFO]: jpsullivan238 left the game
+[21:24:21] [Server thread/WARN]: handleDisconnection() called twice
